@@ -4,7 +4,7 @@
 echo "START OF SCRIPT"
 
 if [ $# -ne 1 ]; then
-    echo "USAGE: $0 Validaddress"
+    echo "USAGE: $0 <MAC Address>"
     exit 0
 else 
    {
